@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="icon" type="image" href="../imagenes/ahorcado.png">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <header>
+        <img src="/imagenes/vector.png" onclick="vector()" class="vector">
+        <h1 class="titulo2">JUEGO DEL AHORCADO</h1>
+    </header>
+    <main class="espacios-contenidos">
+      <canvas id="dibujo-ahorcado" width="450px" height="500px"></canvas>
+      <canvas id="lineas-ahorcado" width="1200px" height="250px"></canvas>
+        <div>
+          <a href="./juego.html"><button class="boton-azul" id="btn-game">Nuevo Juego</button></a>
+          <a href="./index.html"><button class="boton-claro" id="btn-salir">Salir</button></a>
+       </div>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>
